@@ -1,0 +1,168 @@
+/*My Styles*/
+
+body{
+	
+}
+
+h2{
+	margin-top:2em;
+	color:white;
+}
+
+h3{
+	color:white;
+}
+
+ul{
+	list-style-type: none;
+}
+
+li{
+	display:inline-block;
+}
+
+ul img{
+	display:block;
+}
+
+#orbitbg{
+	height:600px;
+	background: url(../img/background5.jpg);
+	background-repeat: no-repeat;
+	background-position: top center;
+	background-attachment: fixed;
+}
+
+#aboutbg
+{
+	background-image: url(../img/bar31.jpg);
+	background-repeat: no-repeat;
+	background-position: top center;
+	background-attachment: fixed;
+	background-size: 100%;
+}
+
+#menubg{
+	background-image: url(../img/DSC_0081.jpg);
+	background-repeat: no-repeat;
+	background-position: top center;
+	background-attachment: fixed;
+	background-size: 100%;
+}
+
+#contactbg{
+	background-image: url(../img/maruLogowall1.jpg);
+	background-repeat: no-repeat;
+	background-position: top center;
+	background-attachment: fixed;
+	background-size: 100%;
+}
+
+#orbit img{
+	margin-top: 10px;
+	height: 550px;
+}
+
+.opacity80{
+	background: black;
+	color: white;
+	opacity: .75;
+	margin-bottom: 15em;
+	padding: 0 15px 15px 15px;
+}
+
+.nobmarg{
+	margin-bottom: 0;
+}
+
+.name img{
+	height: 75%;
+	width: 75%;
+}
+
+/* Nav Bar */
+.contain-to-grid{
+	background: url(../img/header.png);
+	background-repeat: repeat-x;
+}
+
+.top-bar{
+	height: 4.688em;
+	background: none;
+}
+
+.top-bar-section ul{
+	background: none;
+}
+
+.top-bar-section ul li > a{
+	font-size: 1.563em;
+	margin-top: .5em;
+	background: none;
+}
+
+.top-bar-section li:not(.has-form) a:not(.button){
+	background: none;
+	transition: .5s color,
+				.5s background;
+}
+
+.top-bar-section li:not(.has-form) a:not(.button):hover{
+	color: #ffa200;
+}
+
+.top-bar-section > ul > .divider{
+	margin-top: .75em;
+}
+
+/*Home images*/
+.orbit-container img {
+    display:block;
+    margin: 0 auto;
+}
+
+.orbit-timer {
+	display:none;
+}
+
+/*Menu*/
+.has-tip{
+	border: dotted 1px #cccccc;
+}
+
+.has-tip:hover{
+	border: dotted 1px #333333;
+}
+
+#menu ul li:first-of-type{
+	margin-left: 2.813em;
+}
+
+#hours{
+	
+}
+
+/**/
+#contact p{
+	margin-bottom: 0;
+}
+
+iframe{
+	width:37.5em;
+ 	height:28.125em;
+   	border:0;
+   	margin:5em 0;
+}
+
+/*General Styling*/
+.align_left{
+	text-align: left;
+}
+
+.align_right{
+	text-align: right;
+}
+
+.align_center{
+	text-align: center;
+}
