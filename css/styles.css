@@ -64,9 +64,8 @@ ul img{
 }
 
 .opacity80{
-	background: black;
+	background: rgba(0, 0, 0, .75);
 	color: white;
-	opacity: .75;
 	margin-bottom: 15em;
 	padding: 0 15px 15px 15px;
 }
@@ -87,7 +86,7 @@ ul img{
 }
 
 .top-bar{
-	height: 4.688em;
+	height: 4.75em;
 	background: none;
 }
 
@@ -138,8 +137,9 @@ ul img{
 	margin-left: 2.813em;
 }
 
-#hours{
-	
+#menu p{
+	font-style: italic;
+	font-size: .75em;
 }
 
 /**/
